@@ -85,10 +85,28 @@ ABC'''
 # a=chr(65)
 # print()
 
-for i in range(0,3):
+'''for i in range(0,3):
     for j in range(65,68):
         print(chr(j),end="")
+    print()'''
+
+#Using three for loops
+
+#Simple pyramid of *
+
+'''n=4
+   *
+  ***
+ *****
+******* '''
+
+#code
+n=6
+for i in range(1,n):
+    # for j in range(0,n-i):
+    #     print(" ",end="")
+    print(" " *(n-i),end="")
+    for k in range(0,2*i-1):
+        print("*",end="")
+
     print()
-
-
-
