@@ -16,6 +16,18 @@ print((("*"*n +"\n")*n).rstrip())'''
     for j in range(0,4):
         print("*",end="")
     print()'''
+#Extra activity
+'''n=10
+
+for i in range(0,n):
+    for j in range(0,n//2):
+        print("*",end="")
+    for k in range(0,2):
+        print(" ",end="")
+
+    for j in range(0,n//2):
+        print(j,end="")
+    print()'''
 
 #using while loop
 
@@ -28,6 +40,19 @@ while i<4:
     print()
     i+=1
     j=0'''
+
+'''n=4
+
+for i in range(0,n):
+    j=0
+    while j<=n//2:
+        print("*",end="")
+        j+=1
+    k=0
+    while k<=n//2:
+        print("*",end="")
+        k+=1
+    print()'''
 
 #square of numbers (1s, 2s, etc.)
 
@@ -42,6 +67,19 @@ while i<4:
     for j in range(1,6):
         print(i,end="")
     print()'''
+
+n=4
+
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if j==i:
+            print(j,end="")
+        elif j==n-i :
+            print(i,end="")
+            break
+        else:
+            print("*",end="")
+    print()
 
 #using while loop
 
@@ -102,11 +140,11 @@ ABC'''
 
 #code
 n=6
-for i in range(1,n):
+'''for i in range(1,n):
     # for j in range(0,n-i):
     #     print(" ",end="")
     print(" " *(n-i),end="")
     for k in range(0,2*i-1):
         print("*",end="")
 
-    print()
+    print()'''
