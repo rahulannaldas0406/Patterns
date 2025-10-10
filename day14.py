@@ -42,7 +42,7 @@ n=4
 7 8 9 10
 '''
 
-j=1
+'''j=1
 for i in range(1,n+1):
     for k in range(0,n-i+1):
         print(" ",end=" ")
@@ -52,4 +52,18 @@ for i in range(1,n+1):
         c+=1
         j+=1
     
-    print()
+    print()'''
+
+#chgpt
+
+'''n = 4  # Number of rows
+j = 1  # Starting number
+
+for i in range(1, n + 1):             # Loop for each row
+    for k in range(n - i):            # Print leading spaces
+        print(" ", end=" ")
+    for c in range(i):                # Print numbers in the row
+        print(j, end=" ")
+        j += 1
+    print()                            # Move to next row
+'''
