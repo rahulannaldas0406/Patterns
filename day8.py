@@ -18,7 +18,7 @@ for i in range(0,m):
 
 
 
-n=4
+'''n=4
 
 for i in range(0,n):
     for j in range(0,n):
@@ -29,7 +29,9 @@ for i in range(0,n):
         else:
             print(" ",end=" ")
     
-    print()
+    print()'''
+
+
 
 
 
