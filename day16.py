@@ -33,12 +33,31 @@ for i in range(n):
 
 #Continuous alphabets in rows
 
-'''n=3
+'''n=3 b
 count=0
 for i in range(n):
     for j in range(n):
         print(chr(65+count),end="")
         count+=1
-        
+         v
+    print()'''
+#Continuous alphabets in columns
+
+'''n=5
+prev=0
+for i in range(n):
+    prev=i
+    for j in range(n):
+        if j==0:
+            print(chr(65+i),end="") 
+        else:
+            prev=prev+n
+            print(chr(65+prev),end="")
+    
     print()'''
 
+# for i in range(n):
+#     for j in range(n):
+#         print(j,end="")
+#     print()
+#Same alphabet per row
