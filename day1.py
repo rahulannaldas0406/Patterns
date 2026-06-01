@@ -31,7 +31,7 @@ for i in range(0,n):
 
 #using while loop
 
-'''i,j=0,0
+i,j=0,0
 
 while i<4:
     while j<4:
@@ -39,7 +39,7 @@ while i<4:
         j+=1
     print()
     i+=1
-    j=0'''
+    j=0
 
 '''n=4
 
